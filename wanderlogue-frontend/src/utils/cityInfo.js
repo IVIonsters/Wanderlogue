@@ -1,6 +1,6 @@
 export default [
   {
-    title: "Paris",
+    title: "Eiffel Tower",
     location: "France",
     googleMapsUrl: "https://goo.gl/maps/3Pu3Kt9CUhx",
     startDate: "5 Apr, 2023",

@@ -1,4 +1,66 @@
+/* Main container */
+.cityCard {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 1rem;
+}
+
+/* City image styling */
 .cityImg {
   width: 125px;
-  height: auto;
+  height: 168px;
+  border-radius: .75rem;
+  margin-right: 1rem;
+}
+
+/* City info container */
+.cityInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Country location styling */
+.countryLocation {
+  letter-spacing: .1rem;
+}
+
+/* Location container */
+.location {
+  display: flex;
+  align-items: center;
+  margin-top: .5rem;
+}
+
+/* Location icon */
+.locationIcon {
+  width: 1.5rem;
+  margin-left: -.5rem;
+}
+
+/* Google Maps link */
+.googleMaps {
+  color: #b9b9b9;
+  margin-left: .5rem;
+  font-size: .5rem;
+}
+
+/* Title / City name */
+.title {
+  font-size: 1.5rem;
+
+}
+
+/* Dates */
+.dates {
+  font-size: .75rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Description */
+.description {
+  font-size: .6rem;
+  margin: .5rem 0 0 0;
 }
