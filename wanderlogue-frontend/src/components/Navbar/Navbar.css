@@ -1,38 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Great+Vibes&display=swap');
+
 /* Main navbar setup */
 .navbar {
-  background: linear-gradient(90deg, #5AAFF5, #3B82F6);
-  border-bottom: 2px solid #3B82F6;
+  background-color: #ffffff; /* Light background */
   height: 4rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  font-size: 1.2rem;
-  font-weight: bold;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
-  border-radius: 0 0 10px 10px; 
-  padding: 0 1rem;
+  padding: 0 2rem;
+  border-bottom: 1px solid #ddd; /* Subtle border */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Target img only inside navbar */
-.navbar img {
-  width: 40px;
-  height: 40px;
-  margin-right: 10px;
-  padding: 0.5rem;
-  border-radius: 50%; 
-  transition: transform 0.3s ease; 
+/* Logo and text styling */
+.navbar-logo {
+  display: flex;
+  align-items: center;
 }
 
-.navbar img:hover {
-  transform: scale(1.1); 
+.navbar-logo img {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
 }
 
-/* Target p only inside navbar */
-.navbar p {
-  color: white;
-  font-family: 'Poppins', sans-serif; 
-  letter-spacing: 1px;
-  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); 
-  margin: 0;
-  padding-left: 5px;
+.navbar-logo span {
+  color: #333; /* Dark text */
+  font-family: 'Great Vibes', 'Dancing Script', cursive;
+  font-weight: 700;
+  font-size: 1.7rem;
+  margin-top: .5rem;
 }
+
+
