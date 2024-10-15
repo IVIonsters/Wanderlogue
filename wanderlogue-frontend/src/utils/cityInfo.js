@@ -42,7 +42,7 @@ export default [
   {
     id: 5,
     title: "Statue of Liberty",
-    location: "United States",
+    location: "America",
     googleMapsUrl: "https://goo.gl/maps/uJ5R3TXfNLs",
     startDate: "22 Aug, 2023",
     endDate: "28 Aug, 2023",
