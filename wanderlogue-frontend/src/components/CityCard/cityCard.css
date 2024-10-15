@@ -10,7 +10,7 @@
 /* City image styling */
 .cityImg {
   width: 125px;
-  height: 168px;
+  height: auto;
   border-radius: .75rem;
   margin-right: 1rem;
 }
@@ -37,6 +37,7 @@
 .locationIcon {
   width: 1.5rem;
   margin-left: -.5rem;
+  padding: .5rem;
 }
 
 /* Google Maps link */

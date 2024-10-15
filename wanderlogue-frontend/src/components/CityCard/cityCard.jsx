@@ -6,7 +6,7 @@ function CityCard({city}) {
   console.log(city);
   return (
     <div className="cityCard">
-      <img className="cityImg" src={city.imageUrl} alt="Paris" />
+      <img className="cityImg" src={city.imageUrl} alt="Location Destination Photo" />
       <div className="cityInfo">
         <div className="location">
           <img className="locationIcon" src="/images/location.png" alt="location icon" />

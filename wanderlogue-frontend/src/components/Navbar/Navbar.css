@@ -1,15 +1,38 @@
-/* main navbar setup */
+/* Main navbar setup */
 .navbar {
-  background-color: #5AAFF5;
-  border-bottom: 1px solid #000000;
-  height: 3.5rem;
+  background: linear-gradient(90deg, #5AAFF5, #3B82F6);
+  border-bottom: 2px solid #3B82F6;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 1.2rem;
   font-weight: bold;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  border-radius: 0 0 10px 10px; 
+  padding: 0 1rem;
 }
-/* globe styling */
-img {
-  padding: .5rem;
+
+/* Target img only inside navbar */
+.navbar img {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  padding: 0.5rem;
+  border-radius: 50%; 
+  transition: transform 0.3s ease; 
+}
+
+.navbar img:hover {
+  transform: scale(1.1); 
+}
+
+/* Target p only inside navbar */
+.navbar p {
+  color: white;
+  font-family: 'Poppins', sans-serif; 
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1); 
+  margin: 0;
+  padding-left: 5px;
 }
