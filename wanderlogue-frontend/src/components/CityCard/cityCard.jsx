@@ -1,6 +1,7 @@
 import "./cityCard.css";
 
-function CityCard() {
+function CityCard(city) {
+  console.log(city);
   return (
     <div className="cityCard">
       <img className="cityImg" src="https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Paris" />

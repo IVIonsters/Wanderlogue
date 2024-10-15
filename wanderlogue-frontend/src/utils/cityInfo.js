@@ -1,5 +1,6 @@
 export default [
   {
+    id: 1,
     title: "Eiffel Tower",
     location: "France",
     googleMapsUrl: "https://goo.gl/maps/3Pu3Kt9CUhx",
@@ -9,6 +10,7 @@ export default [
 imageUrl: "https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
+    id: 2,
     title: "Rome",
     location: "Italy",
     googleMapsUrl: "https://goo.gl/maps/jNHw3uVV9zr",
@@ -18,6 +20,7 @@ imageUrl: "https://images.unsplash.com/photo-1522582324369-2dfc36bd9275?q=80&w=9
     imageUrl: " https://images.unsplash.com/photo-1598258500419-5d7895465a20?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
   },
   {
+    id: 3,
     title: "Athens",
     location: "Greece",
     googleMapsUrl: "https://goo.gl/maps/TdtdUE1QUHo",
